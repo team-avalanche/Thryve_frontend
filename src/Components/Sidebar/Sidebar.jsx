@@ -18,7 +18,7 @@ const Sidebar = ({ sidebarStatus, setSidebarStatus, setCurrentDescription }) => 
                     <span className="material-symbols-outlined" onClick={closeSidebar}>
                         menu
                     </span>
-                    Project Name
+                    Mediline
                 </h1>
                 <ul>
                     {(!isDoc) && (<li onClick={() => { setCurrentDescription("Appointments"); closeSidebar() }} ><Link to={"/"}>My Appointments</Link></li>)}

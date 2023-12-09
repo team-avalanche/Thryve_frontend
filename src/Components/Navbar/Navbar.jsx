@@ -54,7 +54,7 @@ function Navbar() {
           </div>
           <p>{CurrentDescription}</p>
         </div>
-        <div className="navbar-title">Project Name</div>
+        <div className="navbar-title">Mediline</div>
         <div className='relative' >
           <div className="navbar-profile" onClick={handleProfileClick}></div>
           <FloatingMenu isOpen={isMenuOpen} setMenuOpen={setMenuOpen} />
