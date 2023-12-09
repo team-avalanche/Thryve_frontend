@@ -1,0 +1,66 @@
+.home-title {
+    text-align: center;
+    margin: 20px 0 5px 0px;
+    padding: 15px 0px;
+    border-bottom: 2px solid;
+}
+
+.appointment-list-super-container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.appointment-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.slot-title {
+    font-family: monospace;
+    margin: 10px 0px;
+    font-size: 1.5rem;
+}
+
+.appointment-list {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+    border: 3px solid #664c72;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.415);
+    width: 90%;
+    scrollbar-width: thin;
+    scrollbar-color: #664c72 #dddddd;
+}
+
+.appointment-list::-webkit-scrollbar {
+    height: 8px;
+    /* Width of the scrollbar */
+}
+
+.appointment-list::-webkit-scrollbar-thumb {
+    background-color: #664c72;
+    /* Color of the scrollbar thumb */
+    border-radius: 4px;
+    /* Rounded corners for the thumb */
+}
+
+.appointment-list::-webkit-scrollbar-thumb:hover {
+    background-color: #555555;
+    /* Color of the thumb on hover */
+}
+
+.appointment-list::-webkit-scrollbar-track {
+    background-color: #dddddd;
+    /* Color of the scrollbar track */
+}
+
+.appointment-container-patient {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

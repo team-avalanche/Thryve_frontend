@@ -1,0 +1,12 @@
+.text-centre {
+    text-align: center;
+}
+
+.relative {
+    position: relative;
+}
+
+.child-row-center {
+    display: flex;
+    justify-content: center;
+}

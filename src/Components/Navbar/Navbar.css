@@ -1,0 +1,96 @@
+.nav-right {
+    color: azure;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.nav-right p {
+    margin-left: 5px;
+    position: absolute;
+    left: 100%;
+}
+
+@media (max-width: 520px) {
+    .nav-right p {
+        display: none;
+    }
+
+}
+
+.hamburger {
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 35px;
+}
+
+.hamburger span {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    background-color: seagreen;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 20;
+}
+
+.navbar-title {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: azure;
+}
+
+.navbar-profile {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-right: 30px;
+    border-radius: 50%;
+    background-image: url('https://picsum.photos/200');
+    background-size: cover;
+}
+
+.float-list {
+    list-style: none;
+}
+
+.float-list li {
+    cursor: pointer;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.FloatingMenu {
+    display: none;
+}
+
+.FloatingMenu.active {
+    display: block;
+    position: absolute;
+    top: 105%;
+    right: 50%;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    z-index: 99;
+    width: 150px;
+}
+
+.cover-nav-space {
+    width: 100vw;
+    height: 50px;
+}

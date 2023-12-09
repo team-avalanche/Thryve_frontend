@@ -1,0 +1,70 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-width: 300px;
+    max-width: 400px;
+    padding: 10px;
+    font-size: 1.5rem;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.profile div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5px 0px;
+}
+
+.profile div p {
+    text-align: left;
+    font-size: 1.2rem;
+    margin: 5px 0px;
+}
+
+.profile div div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile div div input,
+.profile div div select,
+.profile div div textarea {
+    min-width: 90%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.299);
+    font-size: 16px;
+    height: 35px;
+
+}
+
+.profile-top {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5rem 0px;
+    border-bottom: 1px solid;
+}
+
+.profile-top span {
+    font-size: 4rem;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: seagreen;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: rgb(40, 119, 75);
+}

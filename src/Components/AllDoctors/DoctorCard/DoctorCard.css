@@ -1,0 +1,132 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0.75rem;
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .2),
+        0 2px 4px -2px rgba(0, 0, 0, .1);
+    max-width: 320px;
+    margin: 10px 15px;
+}
+
+.info {
+    border: none;
+    padding: 1.5rem;
+    text-align: center;
+    height: 100%;
+}
+
+.doc-card-title {
+    color: rgb(38 50 56);
+    letter-spacing: 0;
+    line-height: 1.375;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 0.75rem;
+    border: 1px solid rgb(236 239 241);
+    border-top-right-radius: 0.75rem;
+    border-top-left-radius: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #0080005c;
+}
+
+.doc-card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 90%;
+}
+
+.footer {
+    border: 1px solid rgb(236 239 241);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #0080005c;
+    border-bottom-right-radius: 0.75rem;
+    border-bottom-left-radius: 0.75rem;
+    overflow: hidden;
+    height: 0px;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.footer button {
+    border: none;
+    outline: none;
+    background-color: seagreen;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    transform: .3s ease;
+}
+
+.card:hover .footer {
+    padding: 0.75rem;
+    height: 100px;
+    opacity: 1;
+}
+
+.tag {
+    font-weight: 300;
+    font-size: .75rem;
+    display: block;
+}
+
+.action {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: none;
+    outline: none;
+    color: rgb(255 255 255);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .75rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.slots-container {
+    display: grid;
+    grid-row-gap: 5px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.slot-date {
+    padding: 5px;
+    text-align: center;
+}
+
+.checkboxes {
+    display: flex;
+    flex-direction: column;
+    min-height: 150px;
+    justify-content: space-around;
+}
+
+.checkboxes label {
+    display: flex;
+    align-items: center;
+}
+
+.checkboxes label input {
+    margin: 0px 5px;
+}
+
+.appointment-purpose label textarea {
+    margin: 10px 0px;
+}
+
+.modal-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
